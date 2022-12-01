@@ -62,7 +62,12 @@ table caption {
 table {
   border-collapse: collapse;
   border-bottom: 1px;
+  margin-bottom: 50px;
   text-align: center;
+}
+table td,
+th {
+  padding: 20px;
 }
 table thead tr {
   background-color: rgba(0, 132, 255, 0.849);
@@ -71,10 +76,13 @@ table thead tr th {
   color: white;
   border: 1px solid white;
   font-weight: 300;
-  padding: 10px;
 }
 table tr:last-of-type {
   border-bottom: solid 1px rgb(0, 68, 255);
+}
+table tr:nth-child(even) {
+  background-color: rgb(236, 234, 234);
+  border: px;
 }
 table main a {
   color: #1e92f7;
@@ -91,6 +99,9 @@ table main a {
 .newsletter {
   background-color: rgb(238, 221, 224);
   padding: 10px;
+}
+.newsletter form {
+  width: 100%;
 }
 .newsletter h2 {
   text-align: center;
