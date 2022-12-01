@@ -1,0 +1,128 @@
+/* IMPOSTAZIONI GENERALI */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+body {
+  background-image: url(../img/sfondo.png);
+}
+
+/* HEADER */
+header {
+  background-image: linear-gradient(
+    to bottom,
+    rgb(0, 153, 187),
+    rgb(0, 102, 136)
+  );
+  width: 80%;
+  margin: 0 auto 0 auto;
+  text-align: center;
+  padding: 20px;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  font-size: 1.1em;
+  box-shadow: 0px 3px 5px rgb(0, 0, 0);
+}
+nav ul {
+  list-style-type: none;
+  padding-inline-start: 0px;
+}
+nav li::before {
+  content: "=> ";
+}
+nav li::after {
+  content: " <=";
+}
+/* MAIN */
+main {
+  background-color: rgb(255, 255, 255);
+  width: 80%;
+  padding: 20px;
+  margin: 30px auto 0 auto;
+  font-family: "Poppins", sans-serif;
+  box-shadow: 0px 3px 5px rgb(0, 0, 0);
+}
+
+/* ELEMENTI NEL MAIN - ARTICLE */
+.post {
+  font-size: 1.2em;
+}
+.post-details {
+  color: grey;
+}
+.post code {
+  background-color: rgb(217, 217, 217);
+  border: solid 1px grey;
+  border-radius: 5px;
+}
+/* TABELLE */
+table caption {
+  font-style: italic;
+  font-weight: bold;
+}
+table {
+  border-collapse: collapse;
+  border-bottom: 1px;
+}
+table thead tr {
+  background-color: rgba(0, 132, 255, 0.849);
+}
+table thead tr th {
+  color: white;
+  border: 1px solid white;
+  font-weight: 300;
+  padding: 10px;
+}
+table tr:last-of-type {
+  border-bottom: solid 1px rgb(0, 68, 255);
+}
+main a {
+  color: #1e92f7;
+}
+.post iframe {
+  width: 100%;
+  height: 250px;
+  border-radius: 20px;
+}
+/* FORM */
+.newsletter {
+  background-color: rgb(238, 221, 224);
+  padding: 10px;
+}
+.newsletter h2 {
+  text-align: center;
+}
+.newsletter button {
+  color: white;
+  background-color: rgb(0, 89, 255);
+}
+/* ELEMENTI NELL' ASIDE */
+.aside div {
+  background-color: rgb(238, 221, 224);
+  border: 1px solid grey;
+  margin-bottom: 30px;
+  padding: 10px;
+}
+.aside h2 {
+  text-align: center;
+}
+.aside a {
+  color: blue;
+}
+.aside .data {
+  text-align: right;
+}
+/* FOOTER */
+footer {
+  background-image: linear-gradient(
+    to bottom,
+    rgb(0, 153, 187),
+    rgb(0, 102, 136)
+  );
+  text-align: center;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  box-shadow: 0px 3px 5px rgb(0, 0, 0);
+  width: 80%;
+  margin: 0 auto 0 auto;
+  padding: 20px;
+}
