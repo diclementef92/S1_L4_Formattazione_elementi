@@ -27,10 +27,10 @@ nav ul {
   padding-inline-start: 0px;
 }
 nav li::before {
-  content: "=> ";
+  content: "⇒ ";
 }
 nav li::after {
-  content: " <=";
+  content: " ⇐";
 }
 /* MAIN */
 main {
@@ -91,10 +91,16 @@ main a {
 .newsletter h2 {
   text-align: center;
 }
+.newsletter input[type="email"] {
+  border: none;
+  border-bottom: 1px dashed grey;
+}
 .newsletter button {
   color: white;
   background-color: rgb(0, 89, 255);
+  border: none;
 }
+
 /* ELEMENTI NELL' ASIDE */
 .aside div {
   background-color: rgb(238, 221, 224);
